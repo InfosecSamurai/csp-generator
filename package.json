@@ -1,0 +1,25 @@
+{
+  "name": "csp-generator",
+  "version": "1.0.0",
+  "description": "Content Security Policy Generator Tool",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CSP",
+    "Content Security Policy",
+    "Security",
+    "Web Security"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
